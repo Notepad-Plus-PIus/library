@@ -1,0 +1,16 @@
+{
+    "name": "lw3/library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Lw3\\Library\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Notepad-Plus-PIus",
+            "email": "stebveikosmos@gmail.com"
+        }
+    ],
+    "require": {}
+}
