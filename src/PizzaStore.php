@@ -3,7 +3,7 @@ abstract class PizzaStore
 {
     abstract public function createPizza(string $type);
 
-    public function orderPizza($type)
+    public function orderPizza(string $type)
     {
         $pizza = $this->createPizza($type);
 
